@@ -1,0 +1,74 @@
+---
+layout: page
+---
+
+<div class="row">
+  <div class="jumbotron">
+    <h1 class="display-4">Matrix</h1>
+    <p class="lead"><code>chat.privacytools.io</code> is <a href="https://www.privacytools.io/">privacytools.io's</a> official Matrix homeserver.</p>
+    <hr class="my-4">
+    <p>You can register using any Matrix client, including our own Riot installation. You do not need to be a member of this homeserver to join our channels.</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="https://riot.privacytools.io/" role="button">Open in Riot</a>
+      <a class="btn btn-secondary btn-lg" href="https://www.hello-matrix.net/public_servers.php" role="button">Find Another Homeserver</a>
+      <a class="btn btn-info btn-lg" href="#homeserverinfo" role="button">View Homeserver Info</a>
+    </p>
+  </div>
+</div>
+
+<h2 class="pt-4">Code of Conduct</h2>
+<p>We typically only moderate our own channels, but if any of our users are being offensive in other channels don't hesitate to contact us.</p>
+<ol>
+  <li>Be nice, respectful and constructive. Use common sense.</li>
+  <li>No piracy, spam, hate speech, brigading, gore, doxing, racism and any kind of discrimination.</li>
+  <li>No illegal content. Obviously.</li>
+  <li>Please use the english language unless the channel specifies otherwise.</li>
+</ol>
+<p>The administration team reserves the right to make <a href="https://xkcd.com/1357/">any</a> moderation-related decisions for any reason.</p>
+
+<h2 class="pt-4" id="homeserverinfo">Connection Information</h2>
+<p><strong>To connect to our homeserver, simply use <code>https://chat.privacytools.io</code> as the homeserver in your Matrix client.</strong></p>
+<p>Do <strong>not</strong> use <code>privacytools.io</code> or <code>riot.privacytools.io</code> as your homeserver. You do not need to change your identity server, in fact <code>https://vector.im</code> is the only functional one, by design.</p>
+<p>If you don't have a client, you're welcome to use our Riot install to connect, and connection details will be filled in automatically</p>
+<a class="btn btn-primary" href="https://riot.privacytools.io/" role="button">Open in Riot</a>
+
+<h2 class="pt-4">Frequently Asked Questions</h2>
+
+<h4>Is #general:privacytools.io chat encrypted?</h4>
+<p><strong>No.</strong> Messages sent to the #general chat are encrypted from with client-to-server encryption, i.e. HTTPS. This means that your messages can't be viewed by an attacker on your network, or your ISP, etc. <strong>However</strong>, because this is a public chat room anybody can view your messages if they are a member, and newcomers will be able to see all message history. Do not say anything in rooms that don't use End-to-End (E2E) encryption that you wouldn't want tied to you personally.</p>
+
+<h4>Isn't Matrix behind Cloudflare?</h4>
+<p>Matrix.org is, Privacytools.io isn't. If you use our homeserver and our Riot install, you should be good.</p>
+
+<h4>What happens when I remove a message in Riot?</h4>
+<p>Your homeserver will send a removal request for that message and some clients will render it as a black line, but by editing the source it's possibly for homeserver to not respect it and do nothing. If the room is bridged to protocols that don't support message removals (IRC, XMPP), their users see nothing happening. Don’t say anything you wouldn’t want to remain in the chat forever.</p>
+
+<h4>Why do XMPP users keep joining and leaving all the time?</h4>
+<p><a href="https://github.com/matrix-org/matrix-bifrost/issues/63">It's an issue with the XMPP bridge</a>.</p>
+
+<h2 class="pt-4">Channels</h2>
+<p>To join a channel, just type <code>/join [channel name]</code> in any room.</p>
+<p>The privacytools.io administration operates the following channels:</p>
+<ul>
+  <li><strong><code>#general:privacytools.io</code>: Main discussion channel.</strong> All members of our homeserver will auto-join here.</li>
+  <li><code>#github:privacytools.io</code>: GitHub updates for @privacytoolsIO.</li>
+  <li><code>#guides:privacytools.io</code>: Privacy Guides development work.</li>
+  <li><code>#team:privacytools.io</code>: Private.</li>
+</ul>
+<p>If you're looking for more things to chat about, check out these channels too:</p>
+<ul>
+  <li><code>#matrix:matrix.org</code>: Discuss Matrix itself!</li>
+  <li><code>#disroot:disroot.org</code></li>
+  <li><code>#freenode_#opennic:matrix.org</code>: OpenNIC IRC Channel.</li>
+  <li><code>#anime:matrix.org</code></li>
+  <li><code>#nothing_to_hide:privacytools.io</code>: More general privacy chat.</li>
+  <li><code>#plume:disroot.org</code>: Discussion for Plume: Federated blogging.</li>
+  <li><code>#riot-web:matrix.org</code>: Riot-web discussion and support.</li>
+</ul>
+<p>If you are a room operator and want your channel listed here, feel free to contact us. Especially if you operate a large room and/or are a member of our homeserver!</p>
+<p>We do not necessarily endorse any of the content in these listed channels.</p>
+
+<h2 class="pt-4" id="contact">Contact</h2>
+<p>For server related issues, the administrator of this homeserver is Jonah, who can be reached on Matrix at <code>@jonah:privacytools.io</code> or via email at <code>jonah@privacytools.io</code>.
+<p>For moderation related issues, you can contact Jonah or anyone in the <code>+team:privacytools.io</code> community on Matrix.</p>
+<p>For anything else, visit <a href="https://www.privacytools.io/contact/">www.privacytools.io/contact</a>.</p>
