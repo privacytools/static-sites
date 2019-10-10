@@ -3,21 +3,19 @@ layout: page
 permalink: /privacy/
 ---
 
-# Homeserver Privacy Notice
+# Homeserver Privacy Statement
 
 Please read this document carefully before accessing or registering on our Matrix service.
 
 ## Introduction
 
-privacytools.io is an unincorporated collective providing tools, recommendations, and online services for privacy focused individuals. The current list of public team members [can be found on GitHub](https://github.com/orgs/privacytoolsIO/people). In order to operate these services, privacytools.io receives hosting and administration services from Aragon Ventures LLC, which also collects payments and donations on the privacytools.io team’s behalf.
+privacytools.io is an unincorporated collective providing tools, recommendations, and online services for privacy focused individuals. The current list of public team members [can be found on GitHub](https://github.com/orgs/privacytoolsIO/people). There is a global privacy policy at [https://www.privacytools.io/privacy](https://www.privacytools.io/privacy/) that applies to all services privacytools.io offers. This document includes some additional information specifically related to the operation of our Matrix homeserver. Please completely read through that document as well if you use services other than chat.privacytools.io.
 
-There is a global privacy policy at [https://www.privacytools.io/privacy](https://www.privacytools.io/privacy/) that applies to all services privacytools.io offers. This document includes some additional information specifically related to the operation of our Matrix homeserver. Please completely read through that document as well if you use services other than chat.privacytools.io.
-
-When you read "the chat.privacytools.io homeserver" or "our Service" below, it refers to the services hosted by Aragon Ventures LLC on behalf of privacytools.io at **chat.privacytools.io** and **riot.privacytools.io**, which store your account and personal conversation history, provide services such as bots and bridges, and communicate via the open Matrix decentralized communication protocol with the public Matrix Network.
+When you read the terms "the chat.privacytools.io homeserver" or "our Service" below, it refers to the services hosted by Aragon Ventures LLC on behalf of privacytools.io at **chat.privacytools.io** and **riot.privacytools.io**, which store your account and personal conversation history and communicate via the open Matrix decentralized communication protocol with the public Matrix Network.
 
 Please be aware that the public Matrix Network is a decentralized and openly federated communication network. This means that user messages are replicated on each participant's server and messages posted to a room are visible to all participants including in some cases any new joiners. **This privacy notice does not apply to such Matrix servers run by anyone else - Matrix is an open network like the World Wide Web and this agreement only applies to the server (chat.privacytools.io) provided by Aragon Ventures LLC.**
 
-Aragon Ventures LLC is the data controller for this service. We can be contacted as per the details below:
+In order to operate these services, privacytools.io receives hosting and administration services from Aragon Ventures LLC, who is the data controller for this service and also collects payments and donations on the privacytools.io team’s behalf. They can be contacted as per the details below:
 
 ```
 Jonah Aragon
@@ -42,13 +40,11 @@ We respect privacy rights under [Regulation (EU) 2016/679](https://eur-lex.europ
 
 ### Legal Basis for Processing your data
 
-Aragon Ventures LLC processes your data under our Legitimate Interest to provide our Service to you in a an efficient and secure manner and to ensure the legal compliance and proper administration of our business. Essentially, this means that we process your data only as necessary to deliver the Service and for internal administration purposes, and in a manner that you understand and expect. We also carry out processing that is necessary to provide our Service to you under our chat.privacytools.io Homeserver Terms and Conditions and processing that is necessary to comply with our legal obligations. Where consent is required by law in relation to certain processing, we will ask for your consent.
+Aragon Ventures LLC processes your data under our Legitimate Interest to provide our Service to you in a an efficient and secure manner and to ensure the legal compliance and proper administration of our business. Essentially, this means that we process your data only as necessary to deliver the Service and for internal administration purposes, and in a manner that you understand and expect. We also carry out processing that is necessary to provide our Service to you under our chat.privacytools.io Homeserver [Terms and Conditions](https://chat.privacytools.io/) and processing that is necessary to comply with our legal obligations.
 
 We process your information for the purposes of providing our decentralized, openly-federated and (optionally) end-to-end encrypted communication Service, getting in touch with you, responding to your requests, working with our suppliers to deliver the Service and enabling its features, ensuring the security of our Service, developing, fixing and improving our Service, administering our business and complying with the law.
 
 The nature of the Service and its implementation results in some caveats concerning this processing, particularly in terms of GDPR Article 17 Right to Erasure (Right to be Forgotten). We believe these caveats (discussed in the section below in detail) are in line with the broader societal interests served by providing the Service.
-
-In situations where the interests of the individual appear to be in conflict with the broader societal interests, we will seek to reconcile those differences guided by our policy.
 
 ### Right to Erasure
 
@@ -121,7 +117,7 @@ Currently, we log the IP addresses of everyone who accesses the Service. This da
 
 We may share your information when working with our suppliers to provide the Service.
 
-In addition, the chat.privacytools.io homeserver is a decentralised and open service. This means that, to support communication between users on different homeservers or different messaging platforms, your username, display name and messages and files are sometimes shared with other services that are connected with the chat.privacytools.io homeserver.
+In addition, the chat.privacytools.io homeserver is a decentralized and open service. This means that, to support communication between users on different homeservers or different messaging platforms, your username, display name and messages and files are sometimes shared with other services that are connected with the chat.privacytools.io homeserver.
 
 **Federation**
 
@@ -182,7 +178,7 @@ We never store password data in plain text; instead they are stored hashed (with
 
 It is your sole responsibility to keep your user name, password and other sensitive information confidential. Actions taken using your credentials shall be deemed to be actions taken by you, with all consequences including service termination, civil and criminal penalties.
 
-If you become aware of any unauthorised use of your account or any other breach of security, you must notify us immediately by sending an email to security@privacytools.io. Suspicious devices can be deleted using the User Settings management tools in a Matrix client such as https://riot.im/app, and users should manage good password hygiene (e.g. using a password manager) and change their password if they believe their account is compromised.
+If you become aware of any unauthorized use of your account or any other breach of security, you must notify us immediately by sending an email to security@privacytools.io. Suspicious devices can be deleted using the User Settings management tools in a Matrix client such as https://riot.privacytools.io/, and users should manage good password hygiene (e.g. using a password manager) and change their password if they believe their account is compromised.
 
 If you forget your password (and you have registered an email address) you can use the password reset facility to reset it.
 
@@ -198,4 +194,12 @@ We never knowingly collect or maintain information in the Service from those we 
 
 We try to meet the highest standards when collecting and using personal information. For this reason, we take any complaints we receive about this very seriously. We encourage people to bring it to our attention at `privacy@aragon.ventures` if they think that our collection or use of information is unfair, misleading or inappropriate. We would also welcome any suggestions for improving our procedures.
 
-If you want to make a complaint about the way we have processed your personal information to the supervisory authority, you can contact the ICO (the statutory body which oversees data protection law) at [https://www.ico.org.uk/concerns](https://www.ico.org.uk/concerns).
+For complaints under GDPR more generally, European Union users may lodge complaints with their local data protection supervisory authorities.
+
+## Changes to this Document
+
+This version of our privacy statement took effect October 9th, 2019.
+
+We will post any new versions of this statement at [https://chat.privacytools.io/privacy/](https://chat.privacytools.io/privacy/). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to [https://chat.privacytools.io/privacy/](https://chat.privacytools.io/privacy/) for the latest contact information at any time.
+
+A full [revision history](https://github.com/privacytoolsIO/static-sites/commits/master/chat/privacy.md) for this document can be found on GitHub.
