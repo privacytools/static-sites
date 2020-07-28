@@ -11,7 +11,7 @@ Please read this document carefully before accessing or registering on our Matri
 
 privacytools.io is an unincorporated collective providing tools, recommendations, and online services for privacy focused individuals. The current list of public team members [can be found on GitHub](https://github.com/orgs/privacytoolsIO/people). There is a global privacy policy at [https://www.privacytools.io/privacy](https://www.privacytools.io/privacy/) that applies to all services privacytools.io offers. This document includes some additional information specifically related to the operation of our Matrix homeserver. Please completely read through that document as well if you use services other than chat.privacytools.io.
 
-When you read the terms "the chat.privacytools.io homeserver" or "our Service" below, it refers to the services hosted by Aragon Ventures LLC on behalf of privacytools.io at **chat.privacytools.io** and **riot.privacytools.io**, which store your account and personal conversation history and communicate via the open Matrix decentralized communication protocol with the public Matrix Network.
+When you read the terms "the chat.privacytools.io homeserver" or "our Service" below, it refers to the services hosted by Aragon Ventures LLC on behalf of privacytools.io at **chat.privacytools.io** and **element.privacytools.io**, which store your account and personal conversation history and communicate via the open Matrix decentralized communication protocol with the public Matrix Network.
 
 Please be aware that the public Matrix Network is a decentralized and openly federated communication network. This means that user messages are replicated on each participant's server and messages posted to a room are visible to all participants including in some cases any new joiners. **This privacy notice does not apply to such Matrix servers run by anyone else - Matrix is an open network like the World Wide Web and this agreement only applies to the server (chat.privacytools.io) provided by Aragon Ventures LLC.**
 
@@ -48,7 +48,7 @@ The nature of the Service and its implementation results in some caveats concern
 
 ### Right to Erasure
 
-You can request that we forget your copy of messages and files by instructing us to deactivate your account (using a matrix client such as https://riot.privacytools.io/) and selecting the option instructing us to forget your messages. What happens next depends on who else had access to the messages and files you had shared.
+You can request that we forget your copy of messages and files by instructing us to deactivate your account (using a matrix client such as https://element.privacytools.io/) and selecting the option instructing us to forget your messages. What happens next depends on who else had access to the messages and files you had shared.
 
 Any messages or files that were only accessible by your account will be deleted from our servers within 30 days.
 
@@ -109,7 +109,7 @@ This content includes any information about yourself that you choose to share.
 
 Each device you use to access the Service is allocated a (user-configurable) identifier. When you access the Service, we record the device identifier, the IP address it used to connect, user agent, and the time at which it last connected to the service.
 
-This information is gathered to help you to manage your devices - you can view and manage the list of devices by connecting to the Service with a Matrix client such as https://riot.privacytools.io/.
+This information is gathered to help you to manage your devices - you can view and manage the list of devices by connecting to the Service with a Matrix client such as https://element.privacytools.io/.
 
 Currently, we log the IP addresses of everyone who accesses the Service. This data is used in order to mitigate abuse, debug operational issues, and monitor traffic patterns. Our logs are kept for not longer than 180 days.
 
@@ -127,7 +127,7 @@ Matrix homeservers share user data with the wider ecosystem over federation.
 * We will forget your copy of your data upon your request. We will also forward your request to be forgotten onto federated homeservers. However - these homeservers are outside our span of control, so we cannot guarantee they will forget your data.
 * Federated homeservers can be located anywhere in the world, and are subject to local laws and regulations.
 
-Access control settings are shared between homeservers, as well as any requests to remove messages by "redactions", or remove personal data under GDPR Article 17 Right to Erasure (Right to be Forgotten). Federated homeservers and Matrix clients which respect the Matrix protocol are expected to honor these controls and redaction/erasure requests, but other federated homeservers are outside of the span of control of Aragon Ventures LLC, and we cannot guarantee how this data will be processed. Federated homeservers can also be located in any territory, and will be subject to the local regulations of that territory. We recommend the use of end-to-end encryption to protect your message and file data over federation, and in future [intend to enable end-to-end encryption by default](https://github.com/vector-im/riot-web/issues/6779).
+Access control settings are shared between homeservers, as well as any requests to remove messages by "redactions", or remove personal data under GDPR Article 17 Right to Erasure (Right to be Forgotten). Federated homeservers and Matrix clients which respect the Matrix protocol are expected to honor these controls and redaction/erasure requests, but other federated homeservers are outside of the span of control of Aragon Ventures LLC, and we cannot guarantee how this data will be processed. Federated homeservers can also be located in any territory, and will be subject to the local regulations of that territory. We recommend the use of end-to-end encryption to protect your message and file data over federation. Only private messages and private rooms are end-to-end encrypted by default.
 
 **Bridging**
 
@@ -144,7 +144,7 @@ The chat.privacytools.io homeserver enables access by default to a range of inte
 
 The Bots and Widgets are provided by a third party, New Vector Ltd., who has a privacy notice published at [https://matrix.org/legal/privacy-notice](https://matrix.org/legal/privacy-notice). If their terms are not acceptable to you, please do not use the built-in integration services.
 
-You also have the option to enable and use a third-party integration service of your choosing from within Riot. These services are outside of our control and you should find and view their privacy statement before using their service.
+You also have the option to enable and use a third-party integration service of your choosing from within Element. These services are outside of our control and you should find and view their privacy statement before using their service.
 
 **Identity Servers**
 
@@ -152,7 +152,7 @@ Matrix has the ability to use centralized Identity Servers to share emails and p
 
 Some third-party Matrix clients will use an identity server provided by New Vector Ltd., who has a privacy notice published at [https://matrix.org/legal/privacy-notice](https://matrix.org/legal/privacy-notice). If their terms are not acceptable to you, please take care to disable the use of their identity server when logging in to your account.
 
-You also have the option to enable and use a third-party identity server of your choosing from within Riot. These services are outside of our control and you should find and view their privacy statement before using their service.
+You also have the option to enable and use a third-party identity server of your choosing from within Element. These services are outside of our control and you should find and view their privacy statement before using their service.
 
 ### Transfers of Your data
 
@@ -178,11 +178,11 @@ We never store password data in plain text; instead they are stored hashed (with
 
 It is your sole responsibility to keep your user name, password and other sensitive information confidential. Actions taken using your credentials shall be deemed to be actions taken by you, with all consequences including service termination, civil and criminal penalties.
 
-If you become aware of any unauthorized use of your account or any other breach of security, you must notify us immediately by sending an email to security@privacytools.io. Suspicious devices can be deleted using the User Settings management tools in a Matrix client such as https://riot.privacytools.io/, and users should manage good password hygiene (e.g. using a password manager) and change their password if they believe their account is compromised.
+If you become aware of any unauthorized use of your account or any other breach of security, you must notify us immediately by sending an email to security@privacytools.io. Suspicious devices can be deleted using the User Settings management tools in a Matrix client such as https://element.privacytools.io/, and users should manage good password hygiene (e.g. using a password manager) and change their password if they believe their account is compromised.
 
 If you forget your password (and you have registered an email address) you can use the password reset facility to reset it.
 
-You can manage your account by using a Matrix client such as https://riot.privacytools.io/.
+You can manage your account by using a Matrix client such as https://element.privacytools.io/.
 
 We will never change a password for you.
 
