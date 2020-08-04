@@ -9,7 +9,7 @@ layout: page
     <hr class="my-4">
     <p>You can register a user account on this homeserver using any Matrix client, no email required. However, you do not need to be a member of this homeserver to join our rooms, and choosing a smaller instance or <a href="https://matrix.org/docs/guides/installing-synapse">hosting your own</a> will help promote decentralization and performance in the Matrix fediverse!</p>
     <p class="lead">
-      <a class="btn btn-primary btn-lg" href="https://riot.privacytools.io/" role="button">Open in Riot</a>
+      <a class="btn btn-primary btn-lg" href="https://element.privacytools.io/" role="button">Open in Element</a>
       <a class="btn btn-secondary btn-lg" href="https://www.hello-matrix.net/public_servers.php" role="button">Find Another Homeserver</a>
     </p>
   </div>
@@ -21,20 +21,20 @@ layout: page
 <h3 id="our-standards">Our Standards</h3>
 <p>Examples of behavior that contributes to creating a positive environment include:</p>
 <ul class="incremental">
-<li>Using welcoming and inclusive language</li>
-<li>Being respectful of differing viewpoints and experiences</li>
-<li>Gracefully accepting constructive criticism</li>
-<li>Focusing on what is best for the community</li>
-<li>Showing empathy towards other community members</li>
+  <li>Using welcoming and inclusive language</li>
+  <li>Being respectful of differing viewpoints and experiences</li>
+  <li>Gracefully accepting constructive criticism</li>
+  <li>Focusing on what is best for the community</li>
+  <li>Showing empathy towards other community members</li>
 </ul>
 <p>Examples of unacceptable behavior by participants include:</p>
 <ul class="incremental">
-<li>The use of sexualized language or imagery and unwelcome sexual attention or advances</li>
-<li>Trolling, insulting/derogatory, antagonistic comments and personal or political attacks</li>
-<li>Promoting intolerance</li>
-<li>Public or private harassment</li>
-<li>Publishing others’ private information, such as a physical or electronic address, without explicit permission</li>
-<li>Other conduct which could reasonably be considered inappropriate in a professional setting</li>
+  <li>The use of sexualized language or imagery and unwelcome sexual attention or advances</li>
+  <li>Trolling, insulting/derogatory, antagonistic comments and personal or political attacks</li>
+  <li>Promoting intolerance</li>
+  <li>Public or private harassment</li>
+  <li>Publishing others’ private information, such as a physical or electronic address, without explicit permission</li>
+  <li>Other conduct which could reasonably be considered inappropriate in a professional setting</li>
 </ul>
 <h3 id="our-responsibilities">Our Responsibilities</h3>
 <p>Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.</p>
@@ -52,9 +52,9 @@ layout: page
 
 <h2 class="pt-4" id="homeserverinfo">Connection Information</h2>
 <p><strong>To register on or connect to our homeserver, simply use <code>https://chat.privacytools.io</code> as the homeserver in your Matrix client.</strong></p>
-<p>Do <strong>not</strong> use <code>privacytools.io</code> or <code>riot.privacytools.io</code> as your homeserver. You do not need to change your identity server, in fact <code>https://vector.im</code> is the only functional one, by design.</p>
-<p>If you don't have a client, you're welcome to use our Riot install to connect, and connection details will be filled in automatically</p>
-<a class="btn btn-primary" href="https://riot.privacytools.io/" role="button">Open in Riot</a>
+<p>Do <strong>not</strong> use <code>privacytools.io</code> or <code>element.privacytools.io</code> as your homeserver. You do not need to change your identity server, in fact <code>https://vector.im</code> is the only functional one, by design.</p>
+<p>If you don't have a client, you're welcome to use our Element install to connect, and connection details will be filled in automatically</p>
+<a class="btn btn-primary" href="https://element.privacytools.io/" role="button">Open in Element</a>
 
 <h2 class="pt-4">Frequently Asked Questions</h2>
 
@@ -62,9 +62,9 @@ layout: page
 <p><strong>No.</strong> Messages sent to the #general chat are encrypted from with client-to-server encryption, i.e. HTTPS. This means that your messages can't be viewed by an attacker on your network, or your ISP, etc. <strong>However</strong>, because this is a public chat room anybody can view your messages if they are a member, and newcomers will be able to see all message history. Do not say anything in rooms that don't use End-to-End (E2E) encryption that you wouldn't want tied to you personally.</p>
 
 <h4>Isn't Matrix behind Cloudflare?</h4>
-<p>Matrix.org is, Privacytools.io isn't. If you use our homeserver and our Riot install, you should be good.</p>
+<p>Only the Matrix.org homeserver is behind Cloudflare. If you are using our <a href="https://element.privacytools.io/">Element instance</a> or the privacytools.io homeserver then your access won't be through Cloudflare.</p>
 
-<h4>What happens when I remove a message in Riot?</h4>
+<h4>What happens when I remove a message in Element?</h4>
 <p>Your homeserver will send a removal request for that message and some clients will render it as a black line, but by editing the source it's possibly for homeserver to not respect it and do nothing. If the room is bridged to protocols that don't support message removals (IRC, XMPP), their users see nothing happening. Don’t say anything you wouldn’t want to remain in the chat forever.</p>
 
 <h4>Why do XMPP users keep joining and leaving all the time?</h4>
@@ -92,10 +92,9 @@ layout: page
   <li><code>#nothing_to_hide:privacytools.io</code>: More general privacy chat.</li>
   <li><code>#_oftc_#Tor-Project:matrix.org</code>: Official Tor Project chat room!</li>
   <li><code>#plume:disroot.org</code>: Discussion for Plume: Federated blogging.</li>
-  <li><code>#riot-android:matrix.org</code>: Riot-Android discussion and support.</li>
-  <li><code>#riot-ios:matrix.org</code>: Riot-iOS discussion and support.</li>
-  <li><code>#riotx:matrix.org</code>: RiotX discussion and support.</li>
-  <li><code>#riot-web:matrix.org</code>: Riot-web discussion and support.</li>
+  <li><code>#element-android:matrix.org</code>: Element-Android discussion and support.</li>
+  <li><code>#element-ios:matrix.org</code>: Element-iOS discussion and support.</li>
+  <li><code>#element-web:matrix.org</code>: Element-web discussion and support.</li>
 </ul>
 <p>If you are a room operator and want your room listed here, feel free to contact us. Especially if you operate a large room and/or are a member of our homeserver!</p>
 <p>We do not necessarily endorse any of the content in these listed rooms.</p>
